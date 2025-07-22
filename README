@@ -1,0 +1,57 @@
+# 🎫 Ticket Management System
+
+A clean and modern ticket management system built using **React** and **Tailwind CSS**, with a focus on **design**, **drag-and-drop functionality**, and **localStorage-based data persistence**.
+
+This is an interview assignment project showcasing front-end design and interactive UI skills.
+
+---
+
+## 🧾 Objective
+
+Develop a ticket management system using HTML, CSS, and React with strong emphasis on:
+
+- User experience
+- UI/UX design
+- Responsive layout
+- State management using localStorage
+
+---
+
+## 🚀 Features
+
+### ✅ Login Screen
+
+- Simple login form (username & password)
+- Stores login status in **localStorage**
+- No authentication system (as per requirement)
+
+### 🎫 Ticket Creation
+
+- Create new tickets with:
+  - Customer Name
+  - Ticket Title
+  - Position/Status (`Assigned`, `In Process`, `Resolved`, `Deployed`, `Closed`)
+- Tickets appear instantly in the correct section on creation
+
+### 📊 Dashboard & Drag-and-Drop
+
+- Organized ticket sections by status
+- **Drag-and-drop** functionality between sections
+- **Restriction:** Cannot move ticket to `"Closed"` section manually
+
+### 💾 Data Persistence
+
+- All ticket data is stored and synced in **localStorage**
+- Automatically retained on page refresh or tab reopen
+
+### 🎨 Design & UI
+
+- Fully **responsive**
+- **Glassmorphism UI** with Tailwind CSS
+- Smooth transitions and hover animations
+- Clean layout with intuitive interactions
+
+---
+
+## 📁 Project Structure
+
