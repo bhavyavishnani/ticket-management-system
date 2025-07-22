@@ -22,6 +22,7 @@ import {
 import { useEffect, useState } from 'react';
 import TicketColumn from '../components/TicketColumn';
 import TicketForm from '../components/TicketForm';
+import { useNavigate } from 'react-router-dom';
 
 import { clearLoginStatus } from '../utils/LocalStorage'
 
@@ -41,6 +42,8 @@ const Dashboard = () => {
         email: 'vishnani@outlook.com',
         avatar: 'https://pbs.twimg.com/profile_images/1851842541718523905/LHm3C4mu_400x400.jpg'
     });
+
+    const navigate = useNavigate();
 
     const uniqueAssignees = [...new Set(tickets.map(ticket => ticket.assignee).filter(Boolean))];
 
